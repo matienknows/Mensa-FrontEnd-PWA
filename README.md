@@ -1,4 +1,4 @@
-# vue-js-client-crud
+# PWA
 
 ## Project setup
 ```
