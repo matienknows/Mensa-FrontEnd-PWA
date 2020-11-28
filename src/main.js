@@ -5,6 +5,7 @@ import axios from 'axios'
 import store from "./store";
 import {BootstrapVue} from 'bootstrap-vue'
 import http from './http-common'
+import './registerServiceWorker'
 
 
 Vue.prototype.http = axios
