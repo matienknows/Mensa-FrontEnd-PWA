@@ -1,6 +1,6 @@
 {
   "name": "CafeteriaApp",
-  "short_name": "CafeteriaApp",
+  "short_name": "Cafeteria",
   "theme_color": "#4DBA87",
   "icons": [
     {
@@ -26,7 +26,7 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "./login",
   "display": "standalone",
   "background_color": "#000000"
 }

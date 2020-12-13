@@ -48,7 +48,7 @@ export default {
               this.$store.commit('setUserStatus', 'user')
             }
             AuthenticationService.registerSuccesfulLogin(this.username, this.password)
-            this.$router.replace({name: 'meal'})
+            this.$router.replace({name: 'user'})
           })
           .catch(() => {
             document.getElementById("alert-failed").style.display = "block"

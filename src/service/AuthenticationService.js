@@ -9,7 +9,7 @@ class AuthenticationService {
 
     startAuthentication(username, password) {
         if(this.isUserLoggedIn()) {
-            return router.replace({name: 'meal'})
+            return router.replace({name: 'user'})
         }
         return http.get('/basicauth', {headers: {authorization: this.createBasicAuthToken(username, password)}});
     }

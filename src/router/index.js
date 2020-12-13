@@ -12,6 +12,7 @@ import LoginComponent from "@/components/LoginComponent";
 import LogoutComponent from "@/components/LogoutComponent";
 import AuthenticationService from "@/service/AuthenticationService";
 import PageNotFoundComponent from "@/components/PageNotFoundComponent";
+import UserProfileComponent from "@/components/UserProfileComponent";
 
 
 Vue.use(VueRouter)
@@ -30,6 +31,11 @@ const routes = [
     {
         path: '/home',
         component: LandingComponent,
+    },
+    {
+        path: '/user',
+        name: 'user',
+        component: UserProfileComponent,
     },
     {
         path: '/meal',
